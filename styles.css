@@ -1,12 +1,17 @@
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
+    animation:example;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float:right;
+    float:right ;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -24,4 +29,24 @@
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
+  }
+  .homepage_welcome{
+      height: 10em;
+      width: auto;
+      margin:0.1px 20px 0px 20px;
+      
+      background:  linear-gradient(to right top, #58da85, #00ccc7, #00b4ff, #008aff, #b412eb);
+  }
+  .homepage_welcome_text{
+      color: white;
+      float: right;
+      margin-right: 15px;;
+
+  }
+  body{
+      background:  linear-gradient(to right, #020104, #17181d, #232932, #2c3c47, #34505b);
+  }
+  .homepage_welcome_img{
+      float: left;
+      padding-left: 10px;
   }
